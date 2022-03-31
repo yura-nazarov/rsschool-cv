@@ -5,7 +5,11 @@
    - **Email:** yuriy.nazarov@gmail.com
    - **Tel:** +79184384022
 
+##Summary
+>I am 41 years old, working on the rig in foreign company. So, all emails, conversations and meeting in English.
+>I had study in Bashkir State University on major Applied Mathematic.
+>Two years first years after University, I worked as Engineer >Programmer. I supported local network and all software.
+>I like to programming, I like to see precise and simples decision.
+
 ##About Me
-I am 41 years old, working on the rig in foreign company.
-Also I study in University as Applied Mathematic, but never work by my major.
-Due to a lot of communication at the job I have good communication skills.
+
