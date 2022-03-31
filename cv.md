@@ -1,6 +1,6 @@
 # Yuri Nazarov
 
-## Contacts:
+## Contacts
    - **Telegram:** type12
    - **Email:** yuriy.nazarov@gmail.com
    - **Tel:** +79184384022
@@ -11,5 +11,24 @@
 >Two years first years after University, I worked as Engineer >Programmer. I supported local network and all software.
 >I like to programming, I like to see precise and simples decision.
 
-## About Me
+## Skills
+   - HTML & CSS
+   - Git
+   - Microsoft Office
+   - Photoshop
 
+## Code Example
+```
+ const somePositiveNumbers = (a, b) => {
+    if (typeof a !== 'number' || typeof b !== 'number') {
+       return `One of the arguments is not a number`
+    }
+
+    if (a <= 0 || b <= 0) {
+       return `Numbers are not positive`
+    }
+    return a + b
+}
+
+somePositiveNumbers(2, 15)
+```
