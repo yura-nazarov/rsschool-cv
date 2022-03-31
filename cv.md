@@ -1,4 +1,5 @@
 # Yuri Nazarov
+![This is an image](https://sun9-79.userapi.com/impf/c623317/v623317805/8dbb/rAKAsALvWzk.jpg?size=412x604&quality=96&sign=bc2df2e35ddb8e5d9758eecb51e58970&type=album)
 
 ## Contacts
    - **Telegram:** @type12
