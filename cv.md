@@ -32,3 +32,15 @@
 
 somePositiveNumbers(2, 15)
 ```
+
+## Experience
+   - 2 years: Engineer Programer - support local network and computers
+   - 17 years-now: Directional Driller on the rig
+
+## Education
+   - Bashkir State University: Applied Mathematics
+   - HTML Academy - base course
+      [Project "Kvast"](https://github.com/yura-nazarov/Kvast)
+
+## English
+   Due to have daily english on the job, I have some expiries. But mostly it is a technical language and usually in simple form.
