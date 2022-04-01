@@ -1,0 +1,9 @@
+body,
+h1,
+h2 {
+   font-family: "Segoe UI", Helvetica, Arial, sans-serif, sans-serif;
+}
+
+.text-container {
+   width: 800px;
+}
