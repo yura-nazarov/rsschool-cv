@@ -40,7 +40,7 @@ somePositiveNumbers(2, 15)
 ## Education
    - Bashkir State University: Applied Mathematics
    - HTML Academy - base course ([Project "Kvast"](https://github.com/yura-nazarov/Kvast))
-   - In rs.school almost done [Shelter project](git@github.com:yura-nazarov/learn-JavaSrcipt.git)
+   - In rs.school almost done ([Shelter project](git@github.com:yura-nazarov/learn-JavaSrcipt.git))
 
 ## English
    Due to have daily english on the job, I have some expiries. But mostly it is a technical language and usually in simple form.
