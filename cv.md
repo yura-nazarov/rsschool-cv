@@ -19,19 +19,27 @@
 
 ## Code Example
 ```
- const somePositiveNumbers = (a, b) => {
-    if (typeof a !== 'number' || typeof b !== 'number') {
-       return `One of the arguments is not a number`
-    }
+function highAndLow(str){
+let count = 0;
+let Position = 0;
+let max, min;
 
-    if (a <= 0 || b <= 0) {
-       return `Numbers are not positive`
-    }
-    return a + b
+for (i = 0; i < str.length - 1; i++) {
+
+  if (str.indexOf(" ", i) !== -1) {
+    //initialization min and max
+    if (count === 0) min = max = +str.slice(i, str.indexOf(" ", i));
+    
+    max = Math.max(max, +str.slice(i, str.indexOf(" ", i)));
+    min = Math.min(min, +str.slice(i, str.indexOf(" ", i)));
+    i = str.indexOf(" ", i);
+    Position = i;
+    count++;
+  }
+
 }
-
-somePositiveNumbers(2, 15)
 ```
+The code above is a kata (["Highest and Lowest (JavaScript)"](https://www.codewars.com/kata/reviews/55565cd093eb1235210000a0/groups/62568a87193c2000015a090f) on (["codewars.com"](https://www.codewars.com/))
 
 ## Experience
    - 2 years: Engineer Programer - support local network and computers
