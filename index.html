@@ -42,16 +42,25 @@
 
    <h2>Code Example</h2>
    <pre><code>
-   const somePositiveNumbers = (a, b) => {
-   if (typeof a !== 'number' || typeof b !== 'number') {
-   return `One of the arguments is not a number`
-   }
+      function highAndLow(str){
+      let count = 0;
+      let Position = 0;
+      let max, min;
 
-   if (a <= 0 || b <=0) { return `Numbers are not positive` }
-      return a + b
-   }
-      
-   somePositiveNumbers(2, 15)
+      for (i = 0; i < str.length - 1; i++) {
+
+        if (str.indexOf(" ", i) !== -1) {
+          //initialization min and max
+          if (count === 0) min = max = +str.slice(i, str.indexOf(" ", i));
+
+          max = Math.max(max, +str.slice(i, str.indexOf(" ", i)));
+          min = Math.min(min, +str.slice(i, str.indexOf(" ", i)));
+          i = str.indexOf(" ", i);
+          Position = i;
+          count++;
+        }
+
+      }
    </code></pre>
    <h2>Experience</h2>
    <ul>
@@ -70,9 +79,9 @@
    <h2>English</h2>
    <div class="text-container">
       <p>Due to have daily english on the job, I
-         have some expiries. But mostly it is a technical language and usually in simple form. Application Duolingo
-         using
-         on daily basis to improve skills.</p>
+         have some expiries. But mostly it is a technical language in simple form.<br>
+         Application Duolingo using on daily basis to improve skills.
+      </p>
    </div>
 </dir>
 </body>
