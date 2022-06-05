@@ -42,28 +42,29 @@
 
    <h2>Code Example</h2>
    <pre><code>
-function highAndLow(str){
-let count = 0;
-let Position = 0;
-let max, min;
+      function highAndLow(str){
+      let count = 0;
+      let Position = 0;
+      let max, min;
 
-for (i = 0; i < str.length - 1; i++) {
+      for (i = 0; i < str.length - 1; i++) {
 
-  if (str.indexOf(" ", i) !== -1) {
-    //initialization min and max
-    if (count === 0) min = max = +str.slice(i, str.indexOf(" ", i));
-    
-    max = Math.max(max, +str.slice(i, str.indexOf(" ", i)));
-    min = Math.min(min, +str.slice(i, str.indexOf(" ", i)));
-    i = str.indexOf(" ", i);
-    Position = i;
-    count++;
-  }
+        if (str.indexOf(" ", i) !== -1) {
+          //initialization min and max
+          if (count === 0) min = max = +str.slice(i, str.indexOf(" ", i));
 
-}
-The code above is a kata <a href="https://www.codewars.com/kata/reviews/55565cd093eb1235210000a0/groups/62568a87193c2000015a090f">Highest and Lowest (JavaScript)</a> on <a href="https://www.codewars.com/">codewars.com</a>
+          max = Math.max(max, +str.slice(i, str.indexOf(" ", i)));
+          min = Math.min(min, +str.slice(i, str.indexOf(" ", i)));
+          i = str.indexOf(" ", i);
+          Position = i;
+          count++;
+        }
 
+      }
 </code></pre>
+<br>
+The code above is a kata <a href="https://www.codewars.com/kata/reviews/55565cd093eb1235210000a0/groups/62568a87193c2000015a090f">Highest and Lowest (JavaScript)</a> on <a href="https://www.codewars.com/">codewars.com</a>
+<br>
    <h2>Experience</h2>
    <ul>
       <li>2 years: Engineer Programer - support local network and computers</li>
@@ -82,9 +83,9 @@ The code above is a kata <a href="https://www.codewars.com/kata/reviews/55565cd0
    <h2>English</h2>
    <div class="text-container">
       <p>Due to have daily english on the job, I
-         have some expiries. But mostly it is a technical language and usually in simple form. Application Duolingo
-         using
-         on daily basis to improve skills.</p>
+         have some expiries. But mostly it is a technical language in simple form.<br>
+         Application Duolingo using on daily basis to improve skills.
+      </p>
    </div>
 </dir>
 </body>
