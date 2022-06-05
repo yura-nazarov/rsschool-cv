@@ -39,7 +39,7 @@ for (i = 0; i < str.length - 1; i++) {
 
 }
 ```
-The code above is a kata (["Highest and Lowest (JavaScript)"](https://www.codewars.com/kata/reviews/55565cd093eb1235210000a0/groups/62568a87193c2000015a090f) on (["codewars.com"](https://www.codewars.com/))
+The code above is a kata ["Highest and Lowest (JavaScript)"](https://www.codewars.com/kata/reviews/55565cd093eb1235210000a0/groups/62568a87193c2000015a090f) on ["codewars.com"](https://www.codewars.com/)
 
 ## Experience
    - 2 years: Engineer Programer - support local network and computers
@@ -47,8 +47,8 @@ The code above is a kata (["Highest and Lowest (JavaScript)"](https://www.codewa
 
 ## Education
    - Bashkir State University: Applied Mathematics
-   - HTML Academy - base course ([Project "Kvast"](https://github.com/yura-nazarov/Kvast))
-   - In rs.school almost done (["Shelter project"](https://rolling-scopes-school.github.io/yura-nazarov-JSFE2022Q1/shelter/pages/main/index.html))
+   - HTML Academy - base course [Project "Kvast"](https://github.com/yura-nazarov/Kvast)
+   - In rs.school almost done ["Shelter project"](https://rolling-scopes-school.github.io/yura-nazarov-JSFE2022Q1/shelter/pages/main/index.html)
 
 ## English
    Due to have daily english on the job, I have some expiries. But mostly it is a technical language and usually in simple form.
