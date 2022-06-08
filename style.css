@@ -1,0 +1,18 @@
+body,
+h1,
+h2 {
+   font-family: "Segoe UI", Helvetica, Arial, sans-serif, sans-serif;
+}
+
+.container {
+   width: 800px;
+}
+
+.text-container {
+   /* width: 800px; */
+}
+
+pre {
+   width: 630px;
+   background-color: #f6f8fa;
+}
