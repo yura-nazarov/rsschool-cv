@@ -6,90 +6,228 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>CV Yuri Nazarov</title>
-   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="./sass/style.css">
 </head>
 
-<body class="container">
-   <h1>Yuri Nazarov</h1>
-   <img
-      src="https://sun9-79.userapi.com/impf/c623317/v623317805/8dbb/rAKAsALvWzk.jpg?size=412x604&quality=96&sign=bc2df2e35ddb8e5d9758eecb51e58970&type=album"
-      alt="Yuri Nazarov's photo">
+<body>
+   <div class="wrapper">
 
-   <h2>Contacts</h2>
-   <ul>
-      <li><b>Telegram:</b>@type12</li>
-      <li><b>Discord</b>Yura Nazarov (@yura-nazarov) Yura#5297</li>
-      <li><b>Email:</b>yuriy.nazarov@gmail.com</li>
-      <li><b>Tel:</b>+79184384022</li>
-   </ul>
+      <header class="header">
 
-   <h2>Summary</h2>
-   <div class="text-container">
-      <blockquote>I am 41 years old, working on the rig in foreign company. So, all emails, conversations and meeting
-         in
-         English.
-         I had study in Bashkir State University on major Applied Mathematic.
-         Two first years after University, I worked as Engineer Programmer. I supported local network and all
-         software.
-      </blockquote>
-   </div>
+         <nav class="header-nav">
+            <ul class="navigation" id="navigation">
+               <li class="navigation__item"><a class="navigation__link" href="#about-me">About me</a></li>
+               <li class="navigation__item"><a class="navigation__link" href="#skills">Skills</a></li>
+               <li class="navigation__item"><a class="navigation__link" href="#code-example">Code Example</a></li>
+               <li class="navigation__item"><a class="navigation__link" href="#projects">My projects</a></li>
+               <li class="navigation__item"><a class="navigation__link" href="#contacts">Contacts</a></li>
+               <li class="navigation__item"><a class="navigation__link" href="#education">Education</a></li>
+               <li class="navigation__item"><a class="navigation__link" href="#english">English</a></li>
+               <li class="navigation__item"><a class="navigation__link" href="#hobbies">Hobbies</a></li>
+            </ul>
+         </nav>
 
-   <h2>Skills</h2>
-   <ul>
-      <li>HTML &amp; CSS</li>
-      <li>Git</li>
-      <li>Microsoft Office</li>
-      <li>Photoshop</li>
-   </ul>
+         <section class="header__pic-name two--columns">
+            <figure>
+               <img class="header__image" src="./assets/images/myPhoto.jpeg" alt="Yuri Nazarov's photo">
+            </figure>
+            <div class="header__name">
+               <h1 class="name__title">Yuri Nazarov</h1>
+               <p class="neme__subtitle">Junior Front-End Developer</p>
+            </div>
+         </section>
 
-   <h2>Code Example</h2>
-   <pre><code>
-      function highAndLow(str){
-      let count = 0;
-      let Position = 0;
-      let max, min;
+      </header>
 
-      for (i = 0; i &lt; str.length - 1; i++) {
+      <main class="layout-column-main">
 
-        if (str.indexOf(" ", i) !== -1) {
-          //initialization min and max
-          if (count === 0) min = max = +str.slice(i, str.indexOf(" ", i));
+         <!-- aside start -->
+         <div class="aside">
 
-          max = Math.max(max, +str.slice(i, str.indexOf(" ", i)));
-          min = Math.min(min, +str.slice(i, str.indexOf(" ", i)));
-          i = str.indexOf(" ", i);
-          Position = i;
-          count++;
-        }
+            <section class="contacts" id="contacts">
+               <h2 class="contacts__title title">Contacts</h2>
+               <ul class="contacts__list">
+                  <li class="contacts__item">
+                     <span class="contacts__name">Telegram:</span><a href="https://t.me/type12"
+                        target="_blank">@type12</a>
+                  </li>
+                  <li class="contacts__item">
+                     <span class="contacts__name">Discord:</span>Yura Nazarov (Yura#5297)
+                  </li>
+                  <li class="contacts__item">
+                     <span class="contacts__name">Email:</span><a
+                        href="mailto:yuriy.nazarov@gmail.com">yuriy.nazarov@gmail.com</a>
+                  </li>
+                  <li class="contacts__item">
+                     <span class="contacts__name">Tel:</span><a href="tel:+79184384022">+79184384022</a>
+                  </li>
+                  <li class="contacts__item">
+                     <span class="contacts__name">Address:</span>
+                     <a href="https://www.google.com/maps/place/%D0%A3%D1%84%D0%B0,+%D0%A0%D0%B5%D1%81%D0%BF.+%D0%91%D0%B0%D1%88%D0%BA%D0%BE%D1%80%D1%82%D0%BE%D1%81%D1%82%D0%B0%D0%BD/@54.729335,55.9859947,13.18z/data=!4m13!1m7!3m6!1s0x43d93a259216bce1:0xaceec0921eda92cc!2z0KPRhNCwLCDQoNC10YHQvy4g0JHQsNGI0LrQvtGA0YLQvtGB0YLQsNC9!3b1!8m2!3d54.734791!4d55.9578555!3m4!1s0x43d93a259216bce1:0xaceec0921eda92cc!8m2!3d54.734791!4d55.9578555"
+                        target="_blank">Russia, Ufa</a>
+                  </li>
+               </ul>
+            </section>
 
+            <section class="education" id="education">
+               <h2 class="education__title title">Education</h2>
+               <ul class="education__list">
+                  <li class="education__item">
+                     <span class="education__years">1998-2003</span>
+                     <p class="education__text">Bashkir State University: Applied Mathematics</p>
+                  </li>
+                  <li class="education__item">
+                     <span class="education__years">2021</span>
+                     <p class="education__text">HTML Academy - Front-End base
+                        course (HTML, CSS, JavaScript)</p>
+                  </li>
+                  <li class="education__item">
+                     <span class="education__years">2022</span>
+                     <p class="education__text">rs.school - for now</p>
+                  </li>
+               </ul>
+            </section>
+
+         </div>
+         <!-- aside end -->
+
+         <!-- main column start -->
+         <div class="column-main">
+
+            <section class="about-me" id="about-me">
+               <h2 class="about-me__title title">About Me</h2>
+               <p class="about-me__text">
+                  I am 41 years old, I live with my wife and two children in the Ufa city.<br>
+                  I am working on a drilling rig. So, I drill Earth monthly.<br>
+                  I loved mathematics, so I graduated of Applied Mathematics in Bashkir State University.<br>
+                  Two first years after University, I worked as Engineer Programmer (anykey). I supported local network
+                  and software.<br>
+                  A couple of years ago I started to learning HTML &amp; CSS, in really light mode. In the last year, I
+                  am learning hard.<br>
+                  I like reading fiction, repairing mechanical equipment and doing physical labor.<br>
+                  Since I lead a healthy lifestyle, there is plenty time for family and hobbies.<br>
+                  Twelve "I" were used in total.
+               </p>
+            </section>
+
+            <section class="skills" id="skills">
+               <h2 class="skills__title title">Skills</h2>
+               <ul class="skills__list">
+                  <li class="skills__item">HTML &amp; CSS</li>
+                  <li class="skills__item">JavaScript</li>
+                  <li class="skills__item">Git</li>
+                  <li class="skills__item">Microsoft Office</li>
+                  <li class="skills__item">Photoshop, Figma</li>
+               </ul>
+            </section>
+
+            <section class="code-example" id="code-example">
+               <h2 class="code-example__title title">Code Example</h2>
+               <pre class="code-example__pre"><code>
+function highAndLow(str){
+   let count = 0;
+   let Position = 0;
+   let max, min;
+
+   for (i = 0; i &lt; str.length - 1; i++) {
+
+      if (str.indexOf(" ", i) !== -1) {
+         //initialization min and max
+         if (count === 0) min = max = +str.slice(i, str.indexOf(" ", i));
+
+         max = Math.max(max, +str.slice(i, str.indexOf(" ", i)));
+         min = Math.min(min, +str.slice(i, str.indexOf(" ", i)));
+         i = str.indexOf(" ", i);
+         Position = i;
+         count++;
       }
-</code></pre>
-   <br>
-   The code above is a kata <a
-      href="https://www.codewars.com/kata/reviews/55565cd093eb1235210000a0/groups/62568a87193c2000015a090f">Highest
-      and Lowest (JavaScript)</a> on <a href="https://www.codewars.com/">codewars.com</a>
-   <br>
-   <h2>Experience</h2>
-   <ul>
-      <li>2 years: Engineer Programer - support local network and computers</li>
-      <li>17 years-now: Directional Driller on the rig</li>
-   </ul>
+   }
+   //in case only one number in the string
+   if (Position === 0) return str + " " + str;
+   
+   max = Math.max(max, +str.slice(Position));
+   min = Math.min(min, +str.slice(Position));
+   
+   return max.toString() +" "+ min.toString();
+}
+         </code></pre>
+               <p class="code-example__text">
+                  The code is a kata <a
+                     href="https://www.codewars.com/kata/reviews/55565cd093eb1235210000a0/groups/62568a87193c2000015a090f">Highest
+                     and Lowest (JavaScript)</a> on <a href="https://www.codewars.com/">codewars.com</a>.
+               </p>
+            </section>
 
-   <h2>Education</h2>
-   <ul>
-      <li>Bashkir State University: Applied Mathematics</li>
-      <li>HTML Academy - base course
-         <a href="https://github.com/yura-nazarov/Kvast">Project "Kvast"</a>
+            <section class="english" id="english">
+               <h2 class="english__title title">English</h2>
+               <p class="english__text">
+                  Due to have daily english on the job, I
+                  have some expiries. Mostly it is a technical language in simple form.<br>
+                  Duolingo app is helping to support the skill.
+               </p>
+            </section>
 
-      </li>
-   </ul>
+            <section class="hobbies" id="hobbies">
+               <h2 class="hobbies__title title">Hobbies</h2>
+               <ul class="hobbies__list">
+                  <li class="hobbies__item">Reading</li>
+                  <li class="hobbies__item">Volleyball</li>
+                  <li class="hobbies__item">Run</li>
+                  <li class="hobbies__item">Manual labor</li>
+                  <li class="hobbies__item">Hiking</li>
+                  <li class="hobbies__item">Play guitar</li>
+               </ul>
+            </section>
 
-   <h2>English</h2>
-   <div class="text-container">
-      <p>Due to have daily english on the job, I
-         have some expiries. But mostly it is a technical language in simple form.<br>
-         Application Duolingo using on daily basis to improve skills.
-      </p>
+            <section class="projects" id="projects">
+               <h2 class="projects__title title">My projects</h2>
+               <ul class="projects__list">
+                  <li class="projects__item">
+                     <a href="https://yura-nazarov.github.io/Kvast/" target="_blank">
+                        <img class="projects__image" src="./assets/images/Kvast.png" width="1722" height="969"
+                           alt="Kvast project">
+                        <h3 class="projects__title title3">Kvast Project</h3>
+                        <div class="projects__technologies">
+                           <span class="technologies__logo html css js"></span>
+                        </div>
+                     </a>
+                  </li>
+                  <li class="projects__item">
+                     <a href="https://rolling-scopes-school.github.io/yura-nazarov-JSFE2022Q1/shelter/pages/main/"
+                        target="_blank">
+                        <img class="projects__image" src="./assets/images/Shelter.png" width="1722" height="969"
+                           alt="Shelter">
+                        <h3 class="projects__title title3">Shelter</h3>
+                        <div class="projects__technologies">
+                           <span class="technologies__logo html css js"></span>
+                        </div>
+                     </a>
+                  </li>
+               </ul>
+            </section>
+         </div>
+         <!-- main column end -->
+
+      </main>
+
+      <footer class="footer">
+         <ul class="footer__list">
+            <li class="footer__item"><a class="footer__git" href="https://github.com/yura-nazarov/">
+                  <span class="footer__git">Yuri Nazarov - github</span></a>
+            </li>
+            <!-- <li class="footer__item"><a href="https://rs.school/js/" class="footer__rs"></a></li> -->
+            <li class="footer__item"><a href="https://rs.school/js/" class="footer__rs">
+                  <object type="image/svg+xml" data="./assets/icons/rs_school_js.svg" class="footer-logo" width="86"
+                     height="32">
+                     Your browser does not support SVG
+                  </object>
+               </a></li>
+            <li class="footer__item">
+               <span class="footer__text">All rights received &copy; 2022</span>
+            </li>
+         </ul>
+      </footer>
+
    </div>
 </body>
 

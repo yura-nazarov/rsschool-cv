@@ -1,0 +1,44 @@
+html {
+   font-size: 10px;
+}
+
+body {
+   @extend %font-secondary;
+   @include font ($size: 1.6rem, $height: 2.5rem, $weight: 400, $style: normal);
+}
+
+h1 {
+   margin: 0;
+   padding: 0;
+
+   @extend %font-primary;
+   @include font ($size: 4.5rem, $height: 4.8rem, $weight: 700);
+}
+
+h2 {
+   background-color: $color-light-gray;
+
+   margin: 0;
+   padding: 0;
+   padding-left: 3rem;
+   margin-bottom: 2.5rem;
+
+   @extend %font-primary;
+   @include font (3.4rem, 3.7rem, $weight: 700);
+}
+
+// h3 {
+//    margin: 0;
+//    padding: 0;
+//    @extend %font-primary;
+//    @include font (3.5rem, 4.5rem);
+
+//    @include media-2mobilesmall {
+//       @include font (2.5rem, 3.2rem);
+//    }
+// }
+
+.text {
+   @extend %font-secondary;
+   @include font (1.5rem, 2.4rem);
+}

@@ -1,0 +1,41 @@
+@mixin font ($size, $height: 2.4rem, $weight: 400, $style: normal, $spacing: 0.06em) {
+   font-size: $size;
+   line-height: $height;
+   font-weight: $weight;
+   font-style: $style;
+   letter-spacing: $spacing;
+}
+
+@mixin columns ($width) {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+
+   >* {
+      flex-basis: $width;
+   }
+}
+
+@mixin media-laptop {
+   @media (max-width: $content-width) {
+      @content;
+   }
+}
+
+@mixin media-tablet {
+   @media (max-width: $tablet-width) {
+      @content;
+   }
+}
+
+@mixin media-big-mobile {
+   @media (max-width: $mobile-big-width) {
+      @content;
+   }
+}
+
+@mixin media-small-mobile {
+   @media (max-width: $mobile-small-width) {
+      @content;
+   }
+}
