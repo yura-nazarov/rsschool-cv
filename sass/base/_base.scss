@@ -26,19 +26,3 @@ h2 {
    @extend %font-primary;
    @include font (3.4rem, 3.7rem, $weight: 700);
 }
-
-// h3 {
-//    margin: 0;
-//    padding: 0;
-//    @extend %font-primary;
-//    @include font (3.5rem, 4.5rem);
-
-//    @include media-2mobilesmall {
-//       @include font (2.5rem, 3.2rem);
-//    }
-// }
-
-.text {
-   @extend %font-secondary;
-   @include font (1.5rem, 2.4rem);
-}
