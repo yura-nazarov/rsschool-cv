@@ -9,7 +9,7 @@
 
 .contacts__title,
 .education__title {
-   color: black;
+   color: $color-title;
 }
 
 .contacts__list,
@@ -22,7 +22,7 @@
    margin-right: 1rem;
 }
 
-.contacts__item>a {
+.contacts__item a {
    color: $color-light-gray;
 
    &:hover {
@@ -40,91 +40,11 @@
    background-color: $color-light-gray;
 
    border-radius: 0.4rem;
-   padding: 0.3rem;
 
+   padding: 0.3rem;
 }
 
 .education__text {
    margin-top: 0.5rem;
    margin-right: 1rem;
 }
-
-// .not-only1__wrapper {
-//    display: flex;
-//    justify-content: center;
-//    align-items: center;
-//    column-gap: 4.2rem;
-//    flex-wrap: wrap; // delete 
-
-//    width: 100%;
-
-//    padding-top: 60px; //30px
-
-//    @include media-1tablet {
-//       // flex-direction: column;
-//       // align-items: center;
-
-//       padding-top: 0;
-//    }
-// }
-
-// .not-only1__description {
-//    max-width: 460px;
-
-//    margin-top: 21px;
-//    margin-bottom: 100px;
-
-//    @include media-1tablet {
-//       margin-top: 30px;
-//    }
-
-//    @include media-2mobilesmall {
-//       display: flex;
-//       flex-direction: column;
-//       align-items: center;
-//       text-align: center;
-
-//       margin-top: 30px;
-//       margin-bottom: 105px;
-//    }
-// }
-
-// .not-only1__title {
-//    color: $color-light-xl;
-//    @include font ($size: 4.4rem, $weight: normal, $height: 5.7rem, $spacing: 0);
-
-//    margin-bottom: 42px;
-
-//    @include media-2mobilesmall {
-//       @include font (2.5rem, 3.2rem);
-//    }
-// }
-
-// .not-only1__text {
-//    color: $color-dark-s;
-//    @include font($size: 1.5rem, $spacing: 0em);
-
-//    margin: 0;
-//    margin-bottom: 42px;
-// }
-
-// .not-only1__btn {
-//    @include media-1tablet {
-//       margin: auto;
-//    }
-// }
-
-// .not-only1__image {
-
-//    @include media-1tablet {
-//       max-width: 100%;
-//       max-height: 593px;
-
-//       margin-left: auto;
-//    }
-
-//    @include media-3tablet-to-mobile {
-//       // width: 260px;
-//       // height: 271.77px;
-//    }
-// }

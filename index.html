@@ -6,6 +6,7 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>CV Yuri Nazarov</title>
+   <link rel="icon" href="./assets/icons/favicon.ico">
    <link rel="stylesheet" href="./sass/style.css">
 </head>
 
@@ -26,6 +27,12 @@
                <li class="navigation__item"><a class="navigation__link" href="#hobbies">Hobbies</a></li>
             </ul>
          </nav>
+
+         <div class="header__hamburger">
+            <span id="hamburger" class="hamburger">
+               <span class="hamburger__line"></span>
+            </span>
+         </div>
 
          <section class="header__pic-name two--columns">
             <figure>
@@ -123,7 +130,7 @@
 
             <section class="code-example" id="code-example">
                <h2 class="code-example__title title">Code Example</h2>
-               <pre class="code-example__pre"><code>
+               <pre class="code-example__pre"><code class="code-example__code">
 function highAndLow(str){
    let count = 0;
    let Position = 0;
@@ -195,7 +202,7 @@ function highAndLow(str){
                   <li class="projects__item">
                      <a href="https://rolling-scopes-school.github.io/yura-nazarov-JSFE2022Q1/shelter/pages/main/"
                         target="_blank">
-                        <img class="projects__image" src="./assets/images/Shelter.png" width="1722" height="969"
+                        <img class="projects__image" src="./assets/images/Shelter.jpeg" width="1722" height="969"
                            alt="Shelter">
                         <h3 class="projects__title title3">Shelter</h3>
                         <div class="projects__technologies">
@@ -217,13 +224,12 @@ function highAndLow(str){
             </li>
             <!-- <li class="footer__item"><a href="https://rs.school/js/" class="footer__rs"></a></li> -->
             <li class="footer__item"><a href="https://rs.school/js/" class="footer__rs">
-                  <object type="image/svg+xml" data="./assets/icons/rs_school_js.svg" class="footer-logo" width="86"
-                     height="32">
+                  <object class="footer-logo" type="image/svg+xml" data="./assets/icons/rs_school_js.svg">
                      Your browser does not support SVG
                   </object>
                </a></li>
             <li class="footer__item">
-               <span class="footer__text">All rights received &copy; 2022</span>
+               <span class="footer__text">All rights reserved &copy; 2022</span>
             </li>
          </ul>
       </footer>
