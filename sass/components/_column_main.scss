@@ -20,8 +20,12 @@
 }
 
 .code-example__pre {
-   font-family: monospace;
-   font-size: 1.2rem;
+   background-color: $color-light-gray;
+}
+
+.code-example__code {
+   @extend %font-primary;
+   font-size: 1.4rem;
 }
 
 .projects__list {
@@ -53,7 +57,7 @@
    padding: 10px;
 }
 
-.projects__item>a {
+.projects__item a {
    color: $color-title;
 
    &:hover {

@@ -9,7 +9,7 @@
 
 .contacts__title,
 .education__title {
-   color: black;
+   color: $color-title;
 }
 
 .contacts__list,
@@ -22,7 +22,7 @@
    margin-right: 1rem;
 }
 
-.contacts__item>a {
+.contacts__item a {
    color: $color-light-gray;
 
    &:hover {
@@ -40,8 +40,8 @@
    background-color: $color-light-gray;
 
    border-radius: 0.4rem;
-   padding: 0.3rem;
 
+   padding: 0.3rem;
 }
 
 .education__text {
