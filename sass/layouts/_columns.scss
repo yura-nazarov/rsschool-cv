@@ -1,0 +1,9 @@
+.layout-2-column {
+   @include columns($width: 48%);
+}
+
+.layout-column-main {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+}
