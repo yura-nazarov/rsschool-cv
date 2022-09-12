@@ -16,12 +16,12 @@ h1 {
 }
 
 h2 {
-   background-color: $color-light-gray;
-
    margin: 0;
    padding: 0;
    padding-left: 3rem;
    margin-bottom: 2.5rem;
+
+   background-color: $color-light-gray;
 
    @extend %font-primary;
    @include font (3.4rem, 3.7rem, $weight: 700);
