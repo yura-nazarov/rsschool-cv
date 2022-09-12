@@ -135,18 +135,14 @@
 
             <section class="code-example" id="code-example">
                <h2 class="code-example__title title">Code Example</h2>
-               <pre class="code-example__pre"><code class="code-example__code">
-function highAndLow(str){
+               <pre class="code-example__pre"><code class="code-example__code">function highAndLow(str){
    let count = 0;
    let Position = 0;
    let max, min;
-
    for (i = 0; i &lt; str.length - 1; i++) {
-
       if (str.indexOf(" ", i) !== -1) {
          //initialization min and max
          if (count === 0) min = max = +str.slice(i, str.indexOf(" ", i));
-
          max = Math.max(max, +str.slice(i, str.indexOf(" ", i)));
          min = Math.min(min, +str.slice(i, str.indexOf(" ", i)));
          i = str.indexOf(" ", i);
@@ -156,13 +152,10 @@ function highAndLow(str){
    }
    //in case only one number in the string
    if (Position === 0) return str + " " + str;
-   
    max = Math.max(max, +str.slice(Position));
    min = Math.min(min, +str.slice(Position));
-   
    return max.toString() +" "+ min.toString();
-}
-         </code></pre>
+}</code></pre>
                <p class="code-example__text">
                   The code is a kata <a
                      href="https://www.codewars.com/kata/reviews/55565cd093eb1235210000a0/groups/62568a87193c2000015a090f">Highest
@@ -210,6 +203,28 @@ function highAndLow(str){
                         <img class="projects__image" src="./assets/images/Shelter.jpeg" width="1722" height="969"
                            alt="Shelter">
                         <h3 class="projects__title title3">Shelter</h3>
+                        <div class="projects__technologies">
+                           <span class="technologies__logo html css js"></span>
+                        </div>
+                     </a>
+                  </li>
+                  <li class="projects__item">
+                     <a href="https://rolling-scopes-school.github.io/yura-nazarov-JSFEPRESCHOOL2022Q2/momentum2/"
+                        target="_blank">
+                        <img class="projects__image" src="./assets/images/momentum.jpeg" width="1722" height="969"
+                           alt="momentum">
+                        <h3 class="projects__title title3">Momentum</h3>
+                        <div class="projects__technologies">
+                           <span class="technologies__logo html css js"></span>
+                        </div>
+                     </a>
+                  </li>
+                  <li class="projects__item">
+                     <a href="https://rolling-scopes-school.github.io/yura-nazarov-JSFEPRESCHOOL2022Q2/travel/"
+                        target="_blank">
+                        <img class="projects__image" src="./assets/images/travel.jpeg" width="1722" height="969"
+                           alt="Travel">
+                        <h3 class="projects__title title3">Travel</h3>
                         <div class="projects__technologies">
                            <span class="technologies__logo html css js"></span>
                         </div>
