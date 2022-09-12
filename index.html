@@ -123,10 +123,13 @@
    let count = 0;
    let Position = 0;
    let max, min;
+
    for (i = 0; i &lt; str.length - 1; i++) {
       if (str.indexOf(" ", i) !== -1) {
+
          //initialization min and max
          if (count === 0) min = max = +str.slice(i, str.indexOf(" ", i));
+         
          max = Math.max(max, +str.slice(i, str.indexOf(" ", i)));
          min = Math.min(min, +str.slice(i, str.indexOf(" ", i)));
          i = str.indexOf(" ", i);
@@ -134,10 +137,13 @@
          count++;
       }
    }
+
    //in case only one number in the string
    if (Position === 0) return str + " " + str;
+
    max = Math.max(max, +str.slice(Position));
    min = Math.min(min, +str.slice(Position));
+
    return max.toString() +" "+ min.toString();
 }</code></pre>
                <p class="code-example__text">
